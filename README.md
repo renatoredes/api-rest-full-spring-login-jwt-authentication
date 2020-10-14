@@ -45,7 +45,7 @@ Isto retornará um JSON com o usuário e o token que dará acesso ao sistema.
 ![alt text](https://github.com/renatoredes/api-rest-full-spring-login-jwt-authentication/blob/main/img/signup.png)
 
 
-## Consulta de usuário
+### Consulta de usuário
 Com o token, é possível fazer a consulta do usuário através da seguinte URL:
 ```
 URL: /me
