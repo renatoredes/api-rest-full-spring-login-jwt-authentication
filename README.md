@@ -44,7 +44,7 @@ Isto retornará um JSON com o usuário e o token que dará acesso ao sistema.
 
 *Obs.: O Token é válido por 30 minutos.*
 
-![alt text](http://https://github.com/renatoredes/api-rest-full-spring-login-jwt-authentication/img/me.png)
+![alt text](https://github.com/renatoredes/api-rest-full-spring-login-jwt-authentication/blob/main/img/me.png)
 
 
 ## Consulta de usuário
