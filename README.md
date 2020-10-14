@@ -45,7 +45,7 @@ Isto retornará um JSON com o usuário e o token que dará acesso ao sistema.
 *Obs.: O Token é válido por 30 minutos.*
 
 ![alt text](https://github.com/renatoredes/api-rest-full-spring-login-jwt-authentication/blob/main/img/signup.png)
-
+<br/>
 
 ## Consulta de usuário
 Com o token, é possível fazer a consulta do usuário através da seguinte URL:
@@ -57,7 +57,7 @@ No header da requisição é necessário informar o key: `Authorization`
 No value é necessário informar `Bearer {token}`
 Isto retornará os dados atualizados do usuário
 
-![Registro](/img/2-me.png?raw=true "Registro")
+![alt text](https://github.com/renatoredes/api-rest-full-spring-login-jwt-authentication/blob/main/img/me.png)
 
 ## Login
 Caso não possua o token e já tenha feito o cadastro, é possível realizar o login através da seguinte URL:
