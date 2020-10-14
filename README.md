@@ -77,6 +77,8 @@ Isto retornará um JSON com o usuário e o token que dará acesso ao sistema.
 
 ![Login](/img/3-signin.PNG?raw=true "Login")
 ![alt text](https://github.com/renatoredes/api-rest-full-spring-login-jwt-authentication/blob/main/img/signin.PNG)
+![alt text](https://github.com/renatoredes/api-rest-full-spring-login-jwt-authentication/blob/main/img/configToken.png)
+
 
 **As mensagens de erro seguem o seguinte padrão:**
 ```json
