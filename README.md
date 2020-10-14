@@ -16,7 +16,6 @@ Para rodar a aplicação basta fazer o clone dela e rodar o seguinte comando:
 ```
 mvn clean package spring-boot:run
 ```
-
 ## Registro
 Ao iniciar, é possível realizar um cadastro:
 ##### Exemplo: #####
@@ -74,10 +73,7 @@ método: POST
 }
 ```
 Isto retornará um JSON com o usuário e o token que dará acesso ao sistema.
-
-![Login](/img/3-signin.PNG?raw=true "Login")
 ![alt text](https://github.com/renatoredes/api-rest-full-spring-login-jwt-authentication/blob/main/img/configToken.png)
-
 
 **As mensagens de erro seguem o seguinte padrão:**
 
