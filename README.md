@@ -81,8 +81,62 @@ Isto retornará um JSON com o usuário e o token que dará acesso ao sistema.
 
 
 **As mensagens de erro seguem o seguinte padrão:**
+
+Error Response:
+Code: 400 BAD REQUEST
+Content:
 ```json
-{ "mensagem": "mensagem de erro" }
+{
+  "message": "E-mail already exists"
+  "code": "400"
+}
 ```
 
+OR
 
+Code: 400 BAD REQUEST
+Content:
+```json
+{
+  "message": "Invalid fields"
+  "code": "400"
+}
+```
+OR
+
+Code: 400 BAD REQUEST
+Content:
+```json
+{
+  "message": "Missing fields"
+  "code": "400"
+}
+```
+Success Response:
+Code: 200 OK
+Content:
+
+Code: 400 BAD REQUEST
+Content:
+```json
+{
+  "message": "Invalid e-mail or password"
+  "code": "400"
+}
+```
+Code: 400 BAD REQUEST
+Content:
+```json
+{
+  "message": "Missing fields"
+  "code": "400"
+}
+```
+Code: 401 UNAUTHORIZED
+Content:
+```json
+{
+  "message": "Unauthorized - invalid session"
+  "code": "401"
+}
+```
